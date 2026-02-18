@@ -1,0 +1,22 @@
+p.corParagrafo {
+   color: red;
+}
+
+p.corOriginalparagrafo {
+   color: black;
+}
+
+h1.corTitulo {
+   color: red;
+}
+
+h1.corOriginalTitulo {
+   color: black;
+}
+
+span.corSpan {
+   color: green;
+}
+span.corOriginalSpan {
+   color: black;
+}

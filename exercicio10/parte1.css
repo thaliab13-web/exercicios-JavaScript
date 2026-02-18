@@ -1,0 +1,49 @@
+html  {
+   height: 100%; /* Define a altura do html para 100% do viewport */
+   margin: 0; /* Remove a margem padrão do html*/
+}
+
+body {
+   background-image: url(https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/ksc-20220612-ph-jbs01_0034-orig.webp?w=1600&h=1067);
+   background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o body */
+   background-position: center; /* Centraliza a imagem de fundo */   
+   width: 100%; /* Garante que o body ocupe toda a largura da viewport */
+   min-height: 100vh; /* Garante que o body tenha pelo menos a altura da viewport */
+}
+
+/* Estilizando o titulo h1*/
+h1 {
+   color: #FFB22C;
+   /* Cor verde */
+
+   font-family: Arial, sans-serif;
+   /* Fonte Arial */
+}
+
+/* Estilizando o parágrafo */
+p {
+   font-size: 25px;
+   /* Tamanho da fonte */
+   color: #FFEE63;
+   /* Cor do texto */
+   line-height: 1.5;
+   /* Espaçamento entre linhas */
+   margin: 20px;
+   /* Margem ao redor do parágrafo */
+   font-weight: bold;
+}
+
+/* Estilizando o botão */
+button {
+   background-color: #4CAF50;
+   /* Cor de fundo */
+   color: white;
+   text-align: center;
+   /* Centraliza o texto */
+   text-decoration: none;
+   /* Remove sublinhado */
+   display: inline-block;
+   /* Exibe como bloco inline */
+   font-size: 16px;
+   /* Tamanho da fonte */
+}

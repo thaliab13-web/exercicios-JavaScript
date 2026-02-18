@@ -1,0 +1,61 @@
+body {
+   font-weight: bold;
+   font-size: 22px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   background-image: url(https://static.todamateria.com.br/upload/me/di/media-og.jpg?class=ogImageRectangle);
+   background-size: cover;
+   /* deixa a imagem cobrir toda a tela */
+}
+
+form {
+   width: 800px;
+   height: 600px;
+   padding: 10px 15px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+fieldset {
+   border: 2px solid black;
+   border-radius: 10px;
+   box-shadow: 10px 10px 15px green;
+
+}
+
+legend {
+   margin-right: auto;
+   font-size: 25px;
+}
+
+button {
+   display: inline-block;
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #4caf50;
+   color: aliceblue;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+   transition: background 0.3s; /* serve para dar um efeito de transição */
+   
+}
+
+button:hover {
+   background-color: violet;
+}
+
+.input-container {
+   
+   margin-bottom: 20px;
+}
+
+p {
+   display: none; /* para que o texto não apareça */
+}
+
+p.mostra {
+   display: block; /* mostra o parágrafo */
+}

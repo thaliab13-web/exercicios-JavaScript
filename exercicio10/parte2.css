@@ -1,0 +1,44 @@
+html  {
+   height: 100%; /* Define a altura do html para 100% do viewport */
+}
+/*Estilizando o body*/
+body {
+   text-align: center;
+   font-size: 22px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2024/03/21/istock-840781672-qhndnuwq11kp.jpg);
+   background-size: cover;
+   background-position: center;
+
+   font-weight: bold;
+
+}
+
+h1 {
+   color: #AA60C8;
+   text-decoration: underline;
+   border: 1px solid #9F5255;
+   border-radius: 10px;
+   width: 700px; /* Largura do título */
+   margin: auto; /* Centraliza o título */
+   margin-bottom: 50px; /* Margem inferior para espaçamento */
+   box-shadow: 5px 5px 5px #7C444F;
+   text-align: center;   
+}
+
+p {
+   color: black;
+
+}
+
+button {
+   color: blue;
+   display: inline-block;
+   padding: 10px;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+
+
+}

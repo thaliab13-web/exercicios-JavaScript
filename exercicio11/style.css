@@ -1,0 +1,80 @@
+html {
+   height: 100%;
+}
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+
+form {
+   width: 800px;
+   margin: 50px auto;
+   padding: 20px;
+   border: 2px solid darkblue;
+   border-radius: 10px;
+}
+
+fieldset {
+   border: 2px solid darkblue;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: lightblue;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+   font-size: 24px;
+   color: black;
+   margin-bottom: 20px;
+   margin-right: auto;
+}
+
+
+.input-container {
+   display: flex;
+   gap: 10px;
+   margin: 20px auto;
+   justify-content: center;
+   max-width: 500px;
+   width: 100%;
+
+
+}
+
+.input-container label {
+   color: darkblue;
+   white-space: nowrap;
+
+
+}
+
+.input-container input {
+   flex: 1;
+   /* Permite que o input ocupe o espaço restante */
+   padding: 10px;
+   font-weight: bold;
+   ;
+   width: 100px;
+
+}
+
+button {
+   cursor: pointer;
+   display: inline-block;
+   font-size: 16px;
+
+
+}
+
+p.mostra {
+   display: block;
+}
+
+p {
+   display: none;
+   ;
+}
